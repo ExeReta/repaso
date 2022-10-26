@@ -1,0 +1,22 @@
+body {
+    background-color: lightyellow;
+}
+
+img {
+    /* filter: grayscale(100%); */
+    /* filter: blur(5px); */
+    filter: hue-rotate(0deg);
+    transition: filter 2s;
+}
+
+img:hover { 
+    /* filter: grayscale(0%); */
+    /* grayscale en 0 es imagen original en 100 es full escala de grises */
+    /* filter: blur(0); */
+    filter: hue-rotate(360deg);
+
+}
+
+iframe {
+    filter: hue-rotate(245deg);
+}
